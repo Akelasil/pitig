@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pitig/!svn/ver/62/galeriaArte/app/views/admin/artista
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pitig/!svn/ver/49/galeriaArte/app/views/admin/artista/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pitig/!svn/ver/62/galeriaArte/app/views/admin/artista/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pitig/!svn/ver/18/galeriaArte/app/views/admin/artista/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pitig/!svn/ver/51/galeriaArte/app/views/admin/artista/show.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pitig/!svn/ver/71/galeriaArte/app/views/admin/artista/_form.html.erb
+END
+_artista.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pitig/!svn/ver/49/galeriaArte/app/views/admin/artista/_artista.erb
+END

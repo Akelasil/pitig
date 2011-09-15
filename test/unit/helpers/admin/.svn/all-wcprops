@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pitig/!svn/ver/24/galeriaArte/test/unit/helpers/admin
+END
+coleccions_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pitig/!svn/ver/13/galeriaArte/test/unit/helpers/admin/coleccions_helper_test.rb
+END
+obras_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pitig/!svn/ver/24/galeriaArte/test/unit/helpers/admin/obras_helper_test.rb
+END
+artista_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pitig/!svn/ver/3/galeriaArte/test/unit/helpers/admin/artista_helper_test.rb
+END

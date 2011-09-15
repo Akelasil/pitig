@@ -1,0 +1,43 @@
+<h1></h1>
+
+	<% if notice %>
+		  <p id="notice"><%= notice %></p>
+	<% end %>
+
+
+	<table id="centrar"> 
+		<tr>
+			<td>
+				<!-- Imagen del Artista, tamaño definido en modelo -->
+				<%= image_tag @admin_artistum.foto.url(:large), :class => "photo" %>
+			</td>
+		</tr>
+	</table> <br /><br />
+
+
+	<!-- 
+	<p>
+		<b>Alias:</b>
+		<%= @admin_artistum.i_alias %>
+	</p>
+	-->
+
+	<p>
+		<b>Nombre:</b>
+		<%= @admin_artistum.nombre %>
+	</p>
+
+	<p>
+		<b>Curriculum</b> <br />
+		<%= @admin_artistum.curriculum %><br /><br /><br />
+	</p>
+
+
+	<table>
+		<tr valign="middle">
+		   <td><%= link_to '', admin_artista_path, :class => 'back', :title => "Retroceder"  %></td>
+		   <td><%= link_to '', edit_admin_artistum_path(@admin_artistum), :class => 'edit', :title => "Editar" %></td>
+		   <td><%= link_to '', new_admin_artistum_path, :class => 'new', :title => "Nuevo Artista" %></td>
+		</tr>
+	</table>
+

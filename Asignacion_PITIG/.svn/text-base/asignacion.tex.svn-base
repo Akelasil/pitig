@@ -1,0 +1,58 @@
+\documentclass[12pt,a4paper]{article}
+
+% Especificaciones generales y definiciones
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb,eucal}
+\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Tienda Virtual para la Galería de Arte GádeirArt}
+\author{Silvia María Garbarino de la Rosa}
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{Estilos/Digital}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hyphenation{ope-ra-ti-vo
+                ins-tinct}
+\begin{document}
+
+    \maketitle %Imprimir título
+
+    \section{Tipo de proyecto}
+        Proyecto orientado a la web, basado en el entorno de desarrollo {\em Ruby on Rails}.
+
+    \section{Propósito, alcance y objetivo}
+        Se pretende desarrollar una aplicación de comercio electrónico (e-commerce) consistente en una
+        Tienda Virtual para la Galería de Arte {\bf GáderirArt}.
+
+        Con ella se pretende conseguir abrir un nuevo mercado, para vender las obras de arte de la galería a través de la red, con la oportunidad de captar nuevos clientes.
+
+        A estos, se les dará la oportunidad de poder visitar y consultar un catálogo de productos online actualizado continuamente, la oportunidad de poder realizar los pedidos de manera más cómoda, rápida y segura y de hacer al vendedor cualquier comentario con referencia al producto.
+
+        Los objetivos de este proyecto son:
+        \begin{enumerate}
+          \item Aprender a desarrollar una Tienda Virtual utilizando la herramienta de desarrollo {\em Ruby on Rails}.
+                            
+          \item Implementar una solución que pueda tener una aplicación comercial utilizando los conocimientos adquiridos durante la carrera.
+        \end{enumerate}
+
+    \section{Descripción general del proyecto}
+        El proyecto consiste en un sistema web formado por:
+        \begin{enumerate}
+          \item Un {\em Front Office}, con el que interactuarán los clientes, formado por una Tienda Online. Aquí podrán acceder al catálogo de las Obras de Arte y realizar sus compras.
+          \item Un {\em Back Office}, espacio restringido que permitirá al administrador gestionar toda la información del sistema.
+        \end{enumerate}
+
+        La Tienda Virtual contendrá principalmente las siguientes especificaciones técnicas:
+        \begin{description}
+           \item {\bf Página de presentación} de la Galería de Arte GádeirArt.
+           \item {\bf Catálogo de las Obras de Arte}, donde se mostrarán las fotos y las descripciones de los productos que ofrece la tienda.
+           \item {\bf Carrito de Compras Virtual}, en el cual el cliente podrá ir agregando las obras de arte que desea comprar. Este será dinámico, es decir, podrán agregarse, modificarse o eliminarse los productos.
+           \item {\bf Foro}, en el que el cliente podrá discutir temas relacionados con las obras de arte y proporcionar información a la galería para que esta pueda adaptar y mejorar sus servicios.
+           \item {\bf Página de Contacto}, contendrá un formulario mediante el cual el cliente podrá realizar consultas al administrador de la tienda.
+           \item {\bf Página de Pagos}, mediante la cual el cliente podrá efectuar sus pagos. Esta estará conectada a una pasarela de pagos.
+           \item {\bf Página sobre ''Políticas Generales´´}.
+           \item {\bf Página de Control de la Tienda}, que permitirá al administrador gestionar la tienda.
+        \end{description}           
+\end{document} 

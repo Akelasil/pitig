@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pitig/!svn/ver/63/galeriaArte/app/controllers/admin
+END
+coleccions_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pitig/!svn/ver/63/galeriaArte/app/controllers/admin/coleccions_controller.rb
+END
+obras_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pitig/!svn/ver/63/galeriaArte/app/controllers/admin/obras_controller.rb
+END
+artista_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pitig/!svn/ver/63/galeriaArte/app/controllers/admin/artista_controller.rb
+END

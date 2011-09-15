@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pitig/!svn/ver/29/galeriaArte/test/functional/admin
+END
+coleccions_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pitig/!svn/ver/23/galeriaArte/test/functional/admin/coleccions_controller_test.rb
+END
+obras_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pitig/!svn/ver/29/galeriaArte/test/functional/admin/obras_controller_test.rb
+END
+artista_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pitig/!svn/ver/29/galeriaArte/test/functional/admin/artista_controller_test.rb
+END

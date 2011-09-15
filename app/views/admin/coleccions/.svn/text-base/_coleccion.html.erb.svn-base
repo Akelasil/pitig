@@ -1,0 +1,14 @@
+<h1></h1>
+
+<% @admin_coleccions.each do |admin_coleccion| %>
+  <tr class="index">
+    <td id=img><%=h admin_coleccion.nombre %></td>
+    <td id=img><%=h admin_coleccion.descripcion %></td>
+
+    <td id="img_edi1"><%= link_to '', admin_coleccion, :class => 'show', :title => "Mostrar" %></td>
+    <td id="img_edi1"><%= link_to '',edit_admin_coleccion_path(admin_coleccion), :class => 'edit', :title => "Editar" %></td>
+    <td id="img_edi1"><%= link_to '', admin_coleccion, :class => 'delete', 
+		:confirm => "¿Está seguro de que desea eliminar la colección \'#{admin_coleccion.nombre}\'?", 
+		:method => :delete, :title => "Eliminar" %></td>
+  </tr>
+<% end %>

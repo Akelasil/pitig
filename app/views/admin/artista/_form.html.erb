@@ -1,0 +1,43 @@
+<h1></h1>
+
+<%= form_for(@admin_artistum, :html => {:multipart => true}) do |f| %>
+  <% if @admin_artistum.errors.any? %>
+    <div id="error_explanation">
+      <h2>Es necesario corregir <%= pluralize(@admin_artistum.errors.count, "error", "errores") %> para crear el Artista: </h2>
+
+      <ul>
+      <% @admin_artistum.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label 'Alias (*)' %><br />
+    <%= f.text_field :i_alias %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Nombre (*)' %><br />
+    <%= f.text_field :nombre %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label :curriculum %><br />
+    <%= f.text_area :curriculum %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label :foto %><br />
+    <%= f.file_field :foto %><br /><br /><br /><br />
+  </div>
+
+  <div class="actions">
+    <%= f.submit "#{@action}" %><br /><br /><br />
+  </div>
+
+  <div class="oblig">
+    (*) Campos obligatorios<br /><br /><br />
+  </div>
+<% end %>

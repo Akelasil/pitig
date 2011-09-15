@@ -1,0 +1,32 @@
+
+admin_obra_001:
+  id: 1
+  titulo: Gato pardo
+  referencia: 123
+  anio_realizacion: 2011-01-01 
+  medidas: 20 x 20
+  seccion: Pintura
+  tecnica: Oleo
+  precio: 35.50
+  comentario: Gran obra de arte
+  admin_coleccion_id: 2
+  admin_artistum_id: 1
+  imagen_file_name: cuadro.jpg
+  imagen_content_type: image/jpeg
+  imagen_file_size: 34714
+
+admin_obra_002:
+  id: 2
+  titulo: Rosa blanca
+  referencia: 456
+  anio_realizacion: 2009-01-01 
+  medidas: 20 x 15
+  seccion: Pintura
+  tecnica: Acuarela
+  precio: 30.00
+  admin_coleccion_id: 1
+  admin_artistum_id: 2
+  imagen_file_name: cuadro.jpg
+  imagen_content_type: image/jpeg
+  imagen_file_size: 34714
+

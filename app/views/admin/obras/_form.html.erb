@@ -1,0 +1,83 @@
+<h1></h1>
+
+
+<%= form_for(@admin_obra, @admin_artistas, @admin_coleccions, :html => {:multipart => true}) do |f| %>
+
+  <% if @admin_obra.errors.any? %>
+    <div id="error_explanation">
+      <h2>Es necesario corregir <%= pluralize(@admin_obra.errors.count, "error", "errores") %> para crear la Obra: </h2>
+
+      <ul>
+      <% @admin_obra.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+  <div class="field">
+    <%= f.label 'Título (*)' %><br />
+    <%= f.text_field :titulo %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Referencia (*)' %><br />
+    <%= f.text_field :referencia, :size => 10 %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Artista (*)' %><br />
+    <%= collection_select(:admin_obra, :admin_artistum_id, Admin::Artistum.all, :id, :i_alias, :prompt => "Seleccionar") %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Año de realización (*)' %><br />
+    <%= f.date_select :anio_realizacion, :discard_month => true, :start_year => 1950, :default => { :day => 1, :month => 1 } %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Medidas (cm) (*)' %><br />
+    <%= f.text_field :medidas, :size => 10 %> (Ej. 10,5 x 12) <br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Sección (*)' %><br />
+    <%= f.text_field :seccion %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Técnica' %><br />
+    <%= f.text_field :tecnica %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Colección (*)' %><br />
+    <%= collection_select(:admin_obra, :admin_coleccion_id, 
+        Admin::Coleccion.all, :id, :nombre) %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Comentario' %><br />
+    <%= f.text_area :comentario %><br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Precio (€) (*)' %><br />
+    <%= f.text_field :precio, :size => 10 %> (Ej. 12345.50) <br /><br />
+  </div>
+
+  <div class="field">
+    <%= f.label 'Imagen (*)' %><br />
+    <%= f.file_field :imagen %><br /><br /><br /><br />
+  </div>
+
+  <div class="actions">
+    <%= f.submit "#{@action}" %><br /><br /><br />
+  </div>
+
+  <div class="oblig">
+    (*) Campos obligatorios<br /><br /><br />
+  </div>
+<% end %>
+

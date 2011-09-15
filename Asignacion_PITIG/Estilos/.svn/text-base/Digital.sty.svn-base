@@ -1,0 +1,73 @@
+%%% Estilo para los apuntes de Taller LaTeX impresión digital %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ProvidesPackage{Estilos/Digital}
+%\setcounter{tocdepth}{2} %Mostrar solo tres niveles en el índice
+%%% Paquetes dependientes
+%%% Renombrando seno y arcoseno %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\sin{\mathop{\operator@font sen}\nolimits}
+\renewcommand\arcsin{\mathop{\operator@font arcsen}\nolimits}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\abrevHoy{%
+    \number\day/%
+    \ifcase\month
+    \or
+      Ene%
+    \or
+      Feb%
+    \or
+      Mar%
+    \or
+      Abr%
+    \or
+      May%
+    \or
+      Jun%
+    \or
+      Jul%
+    \or
+      Ago%
+    \or
+      Sep%
+    \or
+      Oct%
+    \or
+      Nov%
+    \or
+      Dic%
+    \fi
+    /\number\year
+  }%
+
+\def\descripcion#1{\def\@descripcion{#1}}
+%%% Parámetros de la página %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\voffset=-1in
+%\hoffset=-1in
+%\setlength{\topmargin}      {-0.75in}     % Distancia entre el borde del papel y la parte superior de la cabecera.
+%\setlength{\headheight}     {0.3in}       % Altura de la cabecera.
+%\setlength{\headsep}        {0.4in}       % Separación entre la cabecera y el texto.
+%\setlength{\footskip}       {0.6in}       % Distancia entre la parte inferior de texto y la parte inferior del pie de página.
+\setlength{\textwidth}      {\paperwidth} % Anchura del texto igual al ancho de la pantalla.
+\addtolength{\textwidth}    {-2in}%
+\setlength{\textheight}     {\paperheight}% Altura del texto igual al ancho de la pantalla.
+\addtolength{\textheight}   {-2in}%
+\setlength{\oddsidemargin}  {0in}         % Margen izquierdo en las páginas impares igual a margen izquierdo.
+\setlength{\evensidemargin} {0in}         % Margen izquierdo en las páginas pares igual a margen izquierdo.
+\setlength{\parindent}      {0pt}         % Sangrado a cero
+%
+\setlength{\parskip}        {10pt}        % Distancia entre los párrafos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%        Personalización del Documento            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup{%
+  pdftitle={\@title}, %<--------------- Título del Resumen ------------------->
+  pdfauthor={\@author}, % <--------------- Autor del PDF --------------------->
+  pdfsubject={\@date},%
+  colorlinks=true,%
+  linkcolor=black,%
+  citecolor=black,%
+  urlcolor=black}
+
+\endinput

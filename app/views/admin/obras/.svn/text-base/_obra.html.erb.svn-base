@@ -1,0 +1,55 @@
+<h1></h1>
+  
+  <b><u>Ficha técnica</u></b><br /><br />
+
+  <!--
+  <p>
+    <b>Titulo:</b>
+    <%= @admin_obra.titulo %>
+  </p> 
+  -->
+
+  <p>
+    <b>Ref.:</b>
+    <%= @admin_obra.referencia %>
+  </p>
+
+  <p>
+    <b>Artista:</b>
+    <%= @admin_obra.admin_artistum.i_alias %>
+  </p>
+
+  <p>
+    <b>Año:</b>
+    <%= @admin_obra.anio_realizacion.year %>
+  </p>
+
+  <p>
+    <b>Sección:</b>
+    <%= @admin_obra.seccion %>
+  </p>
+
+  <p>
+    <b>Técnica:</b>
+    <%= @admin_obra.tecnica %>
+  </p>
+
+  <p> 
+    <b>Colección:</b>
+    <%= @admin_obra.admin_coleccion.nombre %>
+  </p>
+
+  <p>
+    <b>Medidas (cm):</b>
+    <%= @admin_obra.medidas %>
+  </p>
+
+  <br /><br />
+
+  <div id="precio">
+    <center><b>Precio:</b> <%=h number_to_currency(@admin_obra.precio, :unit => "€",
+       :separator => ",", :delimiter => ".", :format => "%n %u") %> </center> 
+  </div>
+  
+  <br /><br /><br />
+ 

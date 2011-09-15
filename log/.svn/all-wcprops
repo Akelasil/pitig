@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/pitig/!svn/ver/65/galeriaArte/log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pitig/!svn/ver/72/galeriaArte/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pitig/!svn/ver/72/galeriaArte/log/development.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pitig/!svn/ver/2/galeriaArte/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pitig/!svn/ver/2/galeriaArte/log/server.log
+END

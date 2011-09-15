@@ -1,0 +1,33 @@
+<h1></h1>
+
+<% if flash[:error_notice] %>
+  <div id="error_explanation">
+    <h2><%= raw(flash[:error_notice]) %></h2>
+  </div>
+<% end %>
+
+<% if notice %><p id="notice"><%= notice %></p><br /><% end %>
+
+<!-- Obras más recientes -->
+<table id="derecha">
+  <tr valign="middle">
+     <td class="recent"></td>
+     <td><%= link_to "Obras más recientes", :action => "latest" %></td>
+  </tr>
+</table>
+
+<div class="title_listado"> Catálogo de Obras </div>
+
+<!-- Paginacion usando la gema 'will_paginate'-->
+<div class="apple_pagination">
+  <%= will_paginate @admin_obras %>
+</div>
+
+<!-- Llamada a _obras.html.erb -->
+<%= render :partial => 'obras' %>
+
+<!-- Paginacion usando la gema 'will_paginate'-->
+<div class="apple_pagination">
+  <%= will_paginate @admin_obras %>
+</div>
+

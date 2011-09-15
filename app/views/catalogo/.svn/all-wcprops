@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pitig/!svn/ver/65/galeriaArte/app/views/catalogo
+END
+_obras.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pitig/!svn/ver/72/galeriaArte/app/views/catalogo/_obras.html.erb
+END
+search.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pitig/!svn/ver/67/galeriaArte/app/views/catalogo/search.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pitig/!svn/ver/69/galeriaArte/app/views/catalogo/index.html.erb
+END
+latest.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pitig/!svn/ver/72/galeriaArte/app/views/catalogo/latest.html.erb
+END
+rss.rxml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pitig/!svn/ver/69/galeriaArte/app/views/catalogo/rss.rxml
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/pitig/!svn/ver/58/galeriaArte/app/views/catalogo/show.html.erb
+END

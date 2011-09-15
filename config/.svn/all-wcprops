@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/pitig/!svn/ver/65/galeriaArte/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pitig/!svn/ver/68/galeriaArte/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pitig/!svn/ver/2/galeriaArte/config/database.yml
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pitig/!svn/ver/65/galeriaArte/config/application.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pitig/!svn/ver/2/galeriaArte/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pitig/!svn/ver/2/galeriaArte/config/environment.rb
+END
+sunspot.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pitig/!svn/ver/60/galeriaArte/config/sunspot.yml
+END

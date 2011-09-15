@@ -1,0 +1,21 @@
+<h1> </h1>
+
+<table id="derecha">
+  <tr valign="middle">
+    <td><%= link_to '', catalogo_path, :class => 'backCatalog'  %></td>
+    <td><%= link_to 'Volver al catálogo', catalogo_path %></td>
+  </tr>
+</table>
+
+<div class="title_listado"> Obras Recientes </div>
+
+<!-- Obras -->
+<% @admin_obras.each do |admin_obra| %>
+       <div id="page_content_catalogo">
+         <%= link_to image_tag(admin_obra.imagen.url(:medium), :class => "photo"), :action => "show", :id => admin_obra %>
+         <p><b><%= link_to admin_obra.titulo, :action => "show", :id => admin_obra, :style => "color: #B36B00" %></b></p>
+	 <p id=separacion><b>Fecha:  </b><%= admin_obra.created_at.day %>/<%= admin_obra.created_at.month %>/<%= admin_obra.created_at.year %> </p>
+         <p id=separacion><b>Artista:</b> <%= admin_obra.admin_artistum.i_alias %></p>
+	 <p id=separacion><b>Sección:</b> <%= admin_obra.seccion %></p>
+       </div> 
+<% end %> 

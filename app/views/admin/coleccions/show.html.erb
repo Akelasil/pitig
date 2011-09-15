@@ -1,0 +1,24 @@
+<h1></h1>
+
+<% if notice %>
+  <p id="notice"><%= notice %></p>
+<% end %>
+
+<p>
+  <b>Nombre:</b>
+  <%= @admin_coleccion.nombre %>
+</p>
+
+<p>
+  <b>Descripcion:</b>
+  <%= @admin_coleccion.descripcion %><br /><br /><br />
+</p>
+
+
+<table>
+  <tr valign="middle">
+    <td><%= link_to '', admin_coleccions_path, :class => 'back', :title => "Retroceder"   %></td>
+    <td><%= link_to '', edit_admin_coleccion_path(@admin_coleccion), :class => 'edit', :title => "Editar"  %></td>
+    <td><%= link_to '', new_admin_coleccion_path, :class => 'new', :title => "Nueva Colección"  %></td>
+  </tr>
+</table>

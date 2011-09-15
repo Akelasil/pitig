@@ -1,0 +1,39 @@
+<h1></h1>
+
+<!-- Pagina izquierda -->
+<div id="page_content_left">
+  <% if notice %>
+    <p id="notice"><%= notice %></p>
+  <% end %>
+
+  <%= render :partial => "obra" %>
+
+  <table>
+    <tr valign="middle">
+      <td><%= link_to '', admin_obras_path, :class => 'back', :title => "Retroceder"  %></td>
+     <td><%= link_to '', edit_admin_obra_path(@admin_obra), :class => 'edit', :title => "Editar" %></td>
+      <td><%= link_to '', new_admin_obra_path, :class => 'new', :title => "Nueva Obra" %></td>
+    </tr>
+  </table>
+</div> 
+
+<!-- Pagina derecha -->
+<div id="page_content_right">
+  <table id="centrar"> 
+    <tr>
+      <td>
+        <!-- Imagen de la obra, tamaño definido en modelo -->
+        <%= image_tag @admin_obra.imagen.url(:large), :class => "photo" %>
+      </td>
+    </tr>
+  </table>
+
+  <br />
+
+  <p>
+    <b>Comentario</b>
+    <br /><br />
+    <%= @admin_obra.comentario %>
+  </p>
+</div>
+

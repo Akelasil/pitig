@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+#one:
+  # nombre: MyString
+  # curriculum: MyText
+
+#two:
+  # nombre: MyString
+  # curriculum: MyText
+
+admin_artista_001:
+  id: 1
+  i_alias: Marcos Torres
+  nombre: Marcos Torres Sanz
+  curriculum: 
+    Nació en Sevilla en 1955
+    Catedrático de Dibujo por la Universidad de Sevilla
+
+admin_artista_002:
+  id: 2
+  i_alias: Lola Garcia
+  nombre: Dolores Garcia Sanchez
+  curriculum: 
+    Nació en Sevilla en 1962
+    Catedrático de Dibujo por la Universidad de Sevilla

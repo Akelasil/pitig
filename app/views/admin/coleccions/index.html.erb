@@ -1,0 +1,42 @@
+<h1></h1>
+
+<% if flash[:error_notice] %>
+	  <div id="error_explanation">
+	    <h2><%= flash[:error_notice] %></h2>
+	  </div>
+<% end %>
+
+<% if notice %>
+	 <p id="notice">
+	    <%= notice %>
+	 </p><br />
+<% end %>
+
+
+<div class="title_listado"> Listado de Colecciones </div>
+
+<table class="pretty">
+  <tr class="index">
+    <th><%= sortable "Nombre", "nombre" %></th>
+    <th><%= sortable "Descripcion", "descripcion" %></th>
+  </tr>
+
+  <%= render :partial => "coleccion" %>
+</table>
+
+<br /><br />
+
+<!-- Para la paginacion usando la gema 'will_paginate'-->
+<div class="apple_pagination">
+  <%= will_paginate @admin_coleccions %>
+</div>
+
+<br /><br /><br />
+
+<table>
+	<tr valign="middle">
+	   <td><%= link_to '', new_admin_coleccion_path , :class => 'new', :title => "Nueva" %></td>
+	   <td><%= link_to 'Nueva Colección', new_admin_coleccion_path  %></td>
+	</tr>
+</table>
+

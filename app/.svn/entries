@@ -1,0 +1,43 @@
+10
+
+dir
+66
+http://subversion.assembla.com/svn/pitig/galeriaArte/app
+http://subversion.assembla.com/svn/pitig
+
+
+
+2011-09-13T11:24:07.636894Z
+65
+silvia garbarino de la rosa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+77b8d2b1-565a-4509-a1f9-d0bac278c0b2
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+mailers
+dir
+
+views
+dir
+

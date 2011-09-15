@@ -1,0 +1,150 @@
+Nota: Las ultimas modificaciones ponerlas al comienzo del fichero.
+
+===================================================
+
+15/septiembre/2011
+  * Arreglo de test funcionales
+
+14/septiembre/2011
+  * Modificaciones en las vistas de 'Obras recientes' del catálogo
+  * Eliminar 'Obras recientes' del catálogo mediante RSS, aunque este está implementado
+  * Indicar los campos obligatorios en las vistas de los artistas, colecciones y obras
+
+13/septiembre/2011
+  * Creación de 'Obras recientes' del catálogo con RSS
+  * Modificaciones varias en las vistas
+  * Eliminacion de busqueda en catalogo debido a que no logro que funcione
+
+12/septiembre/2011
+  * Intento de hacer funcionar la búsqueda en catalogo
+
+10/septiembre/2011
+  * Cambio la gema de la paginación a 'Will_paginate'
+
+9/septiembre/2011
+  * Reunión con tutor para concretar puntos de la memoria y proyecto
+  * Implementación de la búsqueda con 'sunspot', no funciona
+
+8/septiembre/2011
+  * Modificación del index y show del catálogo
+  * Implementación de la búsqueda con 'sunspot', no funciona
+
+7/septiembre/2011
+  * Fin de artistas, colecciones y obras
+  * Planning del proyecto
+  * Comienzo del Catálogo (tema 4)
+  * Implementación del index y show del catálogo
+
+6/septiembre/2011
+  * Realización de prototipo de la 'Propuesta de proyecto'
+
+5/septiembre/2011
+  * Añadir campo foto de artista a la BD
+  * Arreglar vistas de artistas y colecciones
+
+4/septiembre/2011
+  * Cambio a español mensajes controlador obras
+  * Arreglo formato precio en vistas editar e index
+
+3/septiembre/2011
+  * Paginación y ordenar
+
+2/septiembre/2011
+  * Búsqueda información para ordenar y gema para la paginación
+  * Gema paginación 'Kaminari'
+
+1/septiembre/2011
+  * Index y controlador de obras
+
+===================================================
+
+31/agosto/2011
+  * Gema para la paginacion 'will_paginate' 
+  * Paginacion no funciona
+
+30/agosto/2011
+  * Paperclip para tratamiento de las imagenes
+  * Añadir campo imagen en la BD para las obras
+  * Controlador de obras
+
+29/agosto/2011
+  * Vistas de obras
+  * Test integral para obras
+
+27/agosto/2011
+  * Test de integración de obras
+  * Busqueda de información sobre test de integracion
+  * Creación de fixtures
+
+26/agosto/2011
+  * Test unitarios
+  * Creación modelo Obras
+
+25/agosto/2011
+  * Crear migración para obras
+  * Validaciones de obras
+  * Comprobación de que funcionan las relaciones
+
+24/agosto/2011
+  * Botones del menu arreglados
+  * Titulos en resto de botones
+  * Validaciones colecciones
+  * Test funcional para colecciones
+
+22/agosto/2011
+  * Modificaciones en layout para el nuevo formato
+
+21/agosto/2011
+  * Realización de layout y CSS para este
+
+20/agosto/2011
+  * Adaptación de layout a la plantilla de web y CSS para este
+
+19/agosto/2011
+  * Nombre galeria y logo
+  * Busqueda de información sobre CSS
+
+18/agosto/2011
+  * Búsqueda de información sobre gema para foro
+  * Implementación de colecciones
+
+17/agosto/2011
+  * Creación de modelo Coleccion
+  * Implementación de colecciones
+
+13/agosto/2011
+  * Búsqueda de tema y plantillas para la web
+
+12/agosto/2011
+  * Añadidos iconos a las vistas
+
+11/agosto/2011
+  * Validacion datos artistas
+  * Test unitarios artistas
+
+9 y 10/agosto/2011
+  * Artistas
+
+===================================================
+
+19 y 20/julio/2011
+  * Instalacion mysql
+  * Creación de las BDs galeriaArte
+  * Definición del formato layout
+  * Creación de 'about'
+  * Inicio de la CSS
+
+13/julio/2011
+  * Creación de espacion en Assembla
+  * Instalación de ruby, rubygems, rails
+  * Creación esqueleto de la aplicación
+
+===================================================
+
+9/octubre/2011
+  * Información e investigación sobre 'frameworks'
+  * Información 'métodos ágiles'
+
+8/octubre/2011
+  * Estudio de 'modelos de negocio electrónico'
+

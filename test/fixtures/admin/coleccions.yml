@@ -1,0 +1,22 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# one:
+ #  nombre: MyString
+ #  descripcion: 
+
+# two:
+ #  nombre: MyString
+ #  descripcion: 
+
+
+admin_colecciones_001:
+  id: 1
+  nombre: Flores
+  descripcion: Distintas flores de la Alameda.
+
+admin_colecciones_002:
+  id: 2
+  nombre: Animales
+  descripcion: Distintas especies de animales.
+
+

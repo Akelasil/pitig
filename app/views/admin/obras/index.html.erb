@@ -1,0 +1,47 @@
+<h1></h1>
+
+<% if flash[:error_notice] %>
+	  <div id="error_explanation">
+	    <h2><%= flash[:error_notice] %></h2>
+	  </div>
+<% end %>
+
+<% if notice %>
+  <p id="notice">
+     <%= notice %>
+  </p><br />
+<% end %>
+
+
+<div class="title_listado"> Listado de Obras </div>
+
+<table class="pretty">
+	<tr class="index">
+	  <th></th>
+	  <th><%= sortable "Título", "titulo" %></th>
+	  <th><%= sortable "Artista", "admin_artistum_id" %></th>
+	  <th><%= sortable "Año", "anio_realizacion" %></th>
+	  <th><%= sortable "Sección", "seccion" %></th>
+	  <th><%= sortable "Colección", "admin_coleccion_id" %></th>
+	  <th><%= sortable "Precio", "precio" %></th>
+	</tr>
+
+	<%= render :partial => "obras" %>
+</table>
+
+<br /><br />
+
+<!-- Para la paginacion usando la gema 'will_paginate'-->
+<div class="apple_pagination">
+  <%= will_paginate @admin_obras %>
+</div>
+
+<br /><br /><br />
+
+<table>
+	<tr valign="middle">
+	   <td><%= link_to '', new_admin_obra_path, :class => 'new', :title => "Nuevo" %></td>
+	   <td><%= link_to 'Nueva Obra', new_admin_obra_path %></td>
+	</tr>
+</table>
+

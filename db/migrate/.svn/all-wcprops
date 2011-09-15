@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pitig/!svn/ver/57/galeriaArte/db/migrate
+END
+20110825155722_create_obras.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pitig/!svn/ver/57/galeriaArte/db/migrate/20110825155722_create_obras.rb
+END
+20110817163624_create_admin_coleccions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pitig/!svn/ver/28/galeriaArte/db/migrate/20110817163624_create_admin_coleccions.rb
+END
+20110905101753_add_artista_column_foto.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pitig/!svn/ver/48/galeriaArte/db/migrate/20110905101753_add_artista_column_foto.rb
+END
+20110809150614_create_admin_artista.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pitig/!svn/ver/3/galeriaArte/db/migrate/20110809150614_create_admin_artista.rb
+END
+20110830181335_add_obra_column_imagen.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pitig/!svn/ver/30/galeriaArte/db/migrate/20110830181335_add_obra_column_imagen.rb
+END

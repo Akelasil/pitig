@@ -1,0 +1,19 @@
+<h1></h1>
+
+<% @admin_obras.each do |admin_obra| %>
+  <tr class="index">
+    <td><%= image_tag admin_obra.imagen.url(:thumb), :class => "photo" %></td>
+    <td id=tit><%=h link_to admin_obra.titulo, admin_obra %></td>
+    <td id=art><%=h admin_obra.admin_artistum.i_alias %></td>
+    <td id=img><%=h admin_obra.anio_realizacion.year %></td>
+    <td id=img><%=h admin_obra.seccion %></td> 
+    <td id=art><%=h admin_obra.admin_coleccion.nombre %></td>
+    <td id=img><%=h number_to_currency(admin_obra.precio, :unit => "€", :separator => ",", :delimiter => ".", :format => "%n %u") %></td>
+
+    <td id=img_edi1><%= link_to '', admin_obra, :class => 'show', :title => "Mostrar" %></td>
+    <td id=img_edi><%= link_to '', edit_admin_obra_path(admin_obra), :class => 'edit', :title => "Editar" %></td>
+    <td id=img_edi><%= link_to '', admin_obra, :class => 'delete', 
+		:confirm => "¿Está seguro de que desea eliminar la obra \'#{admin_obra.titulo}\'?", 
+		:method => :delete, :title => "Eliminar" %></td>
+  </tr>
+<% end %>

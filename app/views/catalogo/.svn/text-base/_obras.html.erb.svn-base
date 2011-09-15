@@ -1,0 +1,13 @@
+<h1></h1>
+
+<% @admin_obras.each do |admin_obra| %>
+       <div id="page_content_catalogo">
+         <%= link_to image_tag(admin_obra.imagen.url(:medium), :class => "photo"), :action => "show", :id => admin_obra %>
+         <p><b><%= link_to admin_obra.titulo, :action => "show", :id => admin_obra, :style => "color: #B36B00" %></b></p>
+         <p id=separacion><b>Artista:</b> <%= admin_obra.admin_artistum.i_alias %></p>
+         <p id=separacion><b>Categoría:</b> <%= admin_obra.seccion %></p>
+         <p id=separacion><b>Medidas:</b> <%= admin_obra.medidas %></p>
+         <p id=separacion><b>Precio:</b> <%= number_to_currency(admin_obra.precio, :unit => "€", :separator => ",", :delimiter => ".", :format => "%n %u") %></p>
+       </div> 
+<% end %>
+

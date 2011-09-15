@@ -1,0 +1,12 @@
+development:
+ adapter: mysql
+ database: galeriaArte_development 
+ username: galeriaArte
+ password: hacked
+
+test:
+ adapter: mysql
+ database: galeriaArte_test
+ username: galeriaArte
+ password: hacked
+

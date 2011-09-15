@@ -1,0 +1,20 @@
+xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
+
+xml.rss :version => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/" do
+  xml.channel do
+    xml.title 	     @page_title
+    xml.link 	     url_for :action => "latest", :only_path => false
+    xml.description  "GádeirArt - Galería de Arte"
+
+    @admin_obras.each do |admin_obra|
+      xml.item do
+        xml.title	admin_obra.titulo	
+        xml.description "Artista: ", admin_obra.admin_artistum.i_alias , "<br /><br />", admin_obra.comentario
+        xml.pubDate 	admin_obra.created_at.to_s(:rfc822) 
+        xml.guid 	url_for :action => "show", :id => admin_obra, :only_path => false
+        xml.link 	url_for :action => "show", :id => admin_obra, :only_path => false
+      end
+    end
+  end
+end
+

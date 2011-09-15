@@ -1,0 +1,35 @@
+<h1></h1>
+
+<!-- Pagina izquierda -->
+<div id="page_content_left">
+  <%= render(@admin_obra, :partial => 'obra') %>
+
+  <table>
+    <tr valign="middle">
+      <td><%= link_to '', catalogo_path, :class => 'backCatalog'  %></td>
+      <td><%= link_to 'Volver al catálogo', catalogo_path %></td>
+    </tr>
+  </table>
+</div> 
+
+
+<!-- Pagina derecha -->
+<div id="page_content_right">
+  <table id="centrar"> 
+    <tr>
+      <td>
+        <!-- Imagen de la obra, tamaño definido en modelo -->
+        <%= image_tag @admin_obra.imagen.url(:large), :class => "photo" %>
+      </td>
+    </tr>
+  </table>
+
+  <br />
+
+  <p>
+    <b>Comentario</b>
+    <br /><br />
+    <%= @admin_obra.comentario %>
+  </p>
+</div>
+

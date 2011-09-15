@@ -1,0 +1,42 @@
+<h1></h1>
+
+<% if flash[:error_notice] %>
+    <div id="error_explanation">
+      <h2><%= flash[:error_notice] %></h2>
+    </div>
+<% end %>
+
+<% if notice %>
+   <p id="notice">
+      <%= notice %>
+   </p><br />
+<% end %>
+
+<div class="title_listado"> Listado de Artistas </div>
+
+<table class="pretty">
+  <tr class="index">
+    <!-- Imagen del Artista -->
+    <th></th>
+    <th><%= sortable "Alias", "i_alias" %></th>
+    <th><%= sortable "Nombre", "nombre" %></th>
+  </tr>
+
+  <%= render :partial => "artista" %>
+</table>
+
+<br /><br />
+
+<!-- Para la paginacion usando la gema 'will_paginate'-->
+<div class="apple_pagination">
+  <%= will_paginate @admin_artistum %>
+</div>
+
+<br /><br /><br />
+
+<table>
+  <tr valign="middle">
+     <td><%= link_to '', new_admin_artistum_path, :class => 'new', :title => "Nuevo" %></td>
+     <td><%= link_to 'Nuevo/a Artista', new_admin_artistum_path %></td>
+  </tr>
+</table>

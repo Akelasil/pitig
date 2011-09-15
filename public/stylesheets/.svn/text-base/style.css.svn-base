@@ -1,0 +1,746 @@
+body
+{ 
+  background:url(../images/top_bg.jpg) repeat-x top #F6F5E9;
+  margin:auto;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size:11px;
+  color: #ccc;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+p#separacion {
+  line-height: 10px;
+  font-size: 11px;
+}
+
+/*header {
+  padding-top: 20px;33
+}*/
+
+
+/* ------ index de admin --------- */
+tr.index{
+  margin-left: 20px;
+  vertical-align: top;
+  /* border-bottom: 3px inset #B36B00;  */
+}
+
+tr.index > td {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+tr.index > th {
+  padding-left: 10px;
+}
+
+tr.index > td#img{
+  padding-top: 25px;
+  padding-right: 5px;
+}
+
+tr.index > td#tit{
+  padding-top: 25px;
+  padding-right: 5px;
+  width: 200px;
+  text-align: left;
+}
+
+tr.index > td#art{
+  padding-top: 25px;
+  padding-right: 5px;
+  width: 100px;
+  text-align: left;
+}
+
+tr.index > td#img_edi{
+  padding-top: 25px;
+  padding-left: 1px;
+}
+
+tr.index > td#img_edi1{
+  padding-top: 25px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+table#obras {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px;;
+  padding:0; 
+}
+
+div#precio{
+  border: 2px;
+  padding: 3px;
+  border-color: #8A0808;
+  border-style: solid;
+  width: 150px;
+  margin: auto;
+}
+
+table#obras .index {
+  float: left;
+  border: 4px solid #ccc;
+  background-color: #fff;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Alineación tablas */
+table#centrar {
+  margin: auto;
+}
+
+table#derecha {
+  margin-left: auto;
+  margin-right: whatever;
+}
+
+/* ------ carrito --------- */
+table#carrito-obras {
+  padding: 0;
+  margin: 0;
+  width: 99%;
+  border-collapse: collapse;
+}
+
+table#carrito-obras tr > th{
+  border: 2px groove #B36B00;
+  text-height: bold;
+  background-color: #B36B00;
+  color: white;
+}
+
+table#carrito-obras .obra {
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+table#carrito-obras td {
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px dotted #B36B00;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a, a:visited { color: #000;}
+
+a:hover {
+  color: #666; 
+  background-color:#FFF;
+}
+
+a > img {border: none;}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+#notice {
+  padding: 5px 5px 5px 15px;
+  margin: 0px;
+  background-color: #FFCC80;
+  font-weight: bold;
+  border: 2px solid #FF6600;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+#tags_update {
+  font-size: 75%;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  border:1px solid black;
+  background-color: white;
+}
+
+#main_content{
+  width:850px;
+  height: auto;
+  margin:auto;
+  background-color:#F6F6EE;
+  border:8px #FFFFFF solid;
+}
+
+#top_banner{
+  width:850px;
+  height:130px;
+  background:url(../images/illustr.jpg) no-repeat right;
+}
+
+img.logo{
+  padding-left:30px;
+  padding-top: 15px;
+}
+
+
+/* ------ top menu --------- */
+#top_menu{
+  width:850px;
+  margin:auto;
+  padding:15px;
+}
+
+ul.menu {
+  list-style-type:none; 
+  display:block; 
+  width: auto; 
+  height:18px; 
+  margin:auto; 
+  padding:0;
+}
+
+ul.menu li {
+  display:inline;
+}
+
+a.nav:link, a.nav:visited {
+  display:block; 
+  float:left; 
+  padding:4px 11px 0 26px; 
+  margin:0;
+  width: auto; 
+  height:18px; 
+  text-align:center; 
+  line-height:18px; 
+  font-weight:bold; 
+  font-size:12px;
+  text-decoration:none; 
+  color:#fff; 
+  background:url(../images/buttons_28.png) no-repeat left;
+}
+
+a.nav:hover {
+  display:block; 
+  float:left; 
+  padding:4px 11px 0 26px; 
+  margin:0;  
+  width: auto;  
+  height:18px;
+  text-align:center; 
+  line-height:18px;
+  text-decoration:none; 
+  color:#F9730C; /* #fa2; Naranja #ACFA58; Verde */
+  background:url(../images/buttons_1.png) no-repeat left;
+}
+
+/*#header a > img, #header a:visited, #header a:active, #header a:hover {
+  text-decoration:none;
+  border: none;
+  background-color: white;
+}*/
+
+
+/* ---- page content ---- */
+#page_content{
+  width:800px;
+  height:auto;
+  margin:auto;
+}
+
+#page_content_left{
+  width:380px;
+  height:auto;
+  float:left;
+  padding:20px;
+  border-right:1px #800000 dashed;
+}
+
+#page_content_right{
+  width:380px;
+  height:auto;
+  float:left;
+  padding:15px;
+}
+
+#page_content_catalogo{
+  width:200px;
+  height:auto;
+  float:left;
+  padding:39px;
+}
+
+#page_bottom{
+  width:830px;
+  clear:both;
+  padding:10px;
+  height:auto;
+}
+
+.title{
+  font-size:20px;
+  color:#808080;
+  clear:both;
+  padding-left:25px;
+  padding-top:30px;
+}
+
+.title_listado{
+  font-size:25px;
+  color:#808080;
+  clear:both;
+  text-align:center;
+  padding-bottom:30px;
+}
+
+.content_text{
+  font-size:13px;
+  color:#333333;
+  height:auto;
+  text-align:justify;
+  padding:8px;
+}
+
+
+/* --- botones: a.show, siendo show una clase --- */
+a.show {
+  text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url('/images/show.png');
+}
+
+a.show:hover{
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url('/images/show-over.png');
+  background-color: transparent;
+}
+
+a.edit {
+  text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url('/images/edit.png');
+}
+
+a.edit:hover {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url('/images/edit-over.png');
+  background-color: transparent;
+}
+
+a.delete {
+  text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url("../images/delete.png");
+}
+
+a.delete:hover {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url("../images/delete-over.png");
+  background-color: transparent;
+}
+
+a.back {
+  text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url("../images/back.png");
+}
+
+a.back:hover {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url("../images/back-over.png");
+  background-color: transparent;
+}
+
+a.new {
+  text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url("../images/new.png");
+}
+
+a.new:hover {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url("../images/new-over.png");
+  background-color: transparent;
+}
+
+a.backCatalog {
+  text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url("../images/back-catalogo.png");
+}
+
+a.backCatalog:hover {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url("../images/back-catalogo-over.png");
+  background-color: transparent;
+}
+
+a.minus {
+  text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url('../images/minus.png');
+}
+
+a.minus:hover{
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url('../images/minus-over.png');
+  background-color: transparent;
+}
+
+a.reply {
+  text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url('../images/reply.png');
+}
+
+a.reply:hover{
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url('../images/reply.png');
+  background-color: transparent;
+}
+
+/* Boton en catalogo */
+td.recent {
+  text-decoration:none;
+  display:inline-block;
+  width:24px;
+  height:24px;
+  background-image: url('../images/last_art.png');
+}
+
+
+/*
+#content {
+  padding-bottom: 15px;
+  border-bottom: 1px solid grey;
+}*/
+
+#logo {
+  font-size: 250%;
+  color: #000000;
+  padding-left:15px;
+}
+
+#slogan {
+  position: relative;
+  font-size: 100%;
+  margin: 0px;
+  line-height: 0px;
+  top: -10px;
+  left: 80px;
+  color: #000000;
+}
+
+
+/* ------- footer ----- */
+/*#footer {
+  text-align: cente
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+#footer{
+  width: auto;
+  height:100px;
+  clear:both;
+  margin-top:40px;
+  background-color: #333333;
+}
+
+#footer_content{
+  width:850px;
+  margin:auto;
+}
+
+#copyrights{
+  width:350px;
+  color: #999999; 
+  font-size:10px;
+  float:left;
+  padding:10px;
+}
+
+
+/* --------- footer menu --------- */
+ul.footer_menu {
+  list-style-type:none; 
+  float:left; 
+  display:block; 
+  width:auto;
+  height: auto; 
+  margin:0px; 
+  padding:3px 0 0 10px;}  
+
+
+
+ul.footer_menu li {
+  display:inline;
+}
+
+a.nav2:link, a.nav2:visited {
+  display:block; 
+  float:left; 
+  padding:4px 0 0 5px; 
+  margin:2px;
+
+  width: auto; 
+  height:20px; 
+  text-align:center; 
+  line-height:16px;
+  text-decoration:none; 
+  color: #999999; 
+  font-size: 11px;
+}
+
+a.nav2:hover {
+  display:block; 
+  float:left; 
+  padding:4px 0 0 5px;
+  margin:2px;
+  width:auto;
+  height:20px; 
+  text-align:center; 
+  line-height:16px;
+  text-decoration:none;
+  color:#FFFFFF; 
+  font-size: 11px; 
+  background:#333333;
+}
+
+
+/* --------- */
+dt {
+  font-weight: bold;
+}
+
+
+#shopping_cart {
+  border-left: 3px solid #B36B00;
+  background: #c0dc86;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  padding: 5px 10px;
+}
+
+#shopping_cart hr{
+  border-color: #B36B00;
+}
+
+#shopping_cart ul,
+#shopping_cart li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#shopping_cart h3 {
+  padding-top: 4em;
+}
+
+#carrito_notice {
+  border: 2px solid #58A986;
+  background: #B2FFD3;
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 195px;
+}
+
+
+/*body {
+  background-color: #fff; color: #333;
+  margin-right: 230px;
+}*/
+
+
+/* --- carrito página principal --- */
+#catalogo .carrito_titulo {
+  font: 120% bold;
+}
+
+#catalogo .item_precio, #catalogo .total_linea {
+  text-align: right;
+}
+
+#catalogo .total_linea .total_elemento {
+  font-weight: bold;
+  border-top: 1px solid #595;
+}
+
+#catalogo .entry form, #catalogo .entry form div {
+  display: inline;
+}
+
+
+/* ----- tags ----- */
+#tags_update {
+  font-size: 75%;
+  font-weight: normal;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  border:1px solid black;
+  background-color: #B36B00;
+}
+    
+#tags_update li:hover {
+  text-decoration: underline;
+}
+
+#login {
+  background-color: #ccc;
+  padding: 8px;
+  width: 120px;
+  position: absolute;
+  top: 10px;
+  left: 500px;
+}
+
+#recomendado {
+  border-left: 3px solid #666;
+  background-color: white;
+  width: 200px;
+  padding: 5px 10px;
+  float: left;
+}
+
+/* ----- facturacion ----- */
+#checkout fieldset {
+  border-top: 1px solid #efefef;
+  border-left: 1px solid #efefef;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 1em 1em 1em 1.5em;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#checkout fieldset:hover {
+  border: 1px solid #3A789D;
+}
+
+#checkout legend {
+  font-weight: bold;
+}
+
+#checkout fieldset input {
+  margin: 1px;
+}
+
+#order_card_verification_value {
+  width: 50px;
+}
+
+#checkout fieldset input:focus {
+  background-color: #cccccc;
+}
+
+
+/* ----- Orden de clasificación de las columnas ----- */
+.pretty th .current {  
+   padding-right: 12px;  
+   background-repeat: no-repeat;  
+   background-position: right center;  
+}  
+
+.pretty th .asc {   
+   background-image: url('../images/arrow_up_10.png'); 
+}  
+   
+.pretty th .desc {   
+   background-image: url('../images/arrow_down_10.png');   
+} 
+
+
+/* ----- Imagenes ----- */
+img.photo{
+  border-style:ridge;
+  border-color:#000000;
+  border-width:5px;
+}
+
+
+/* ----- Campos obligatorios ----- */
+div.oblig{
+  color: red;
+  font-style: italic;
+  font-size: 10px;
+  text-
+}

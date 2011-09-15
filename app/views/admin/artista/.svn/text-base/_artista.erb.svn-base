@@ -1,0 +1,13 @@
+<h1></h1>
+
+<% @admin_artistum.each do |admin_artistum| %>
+  <tr class="index">
+    <td><%= image_tag admin_artistum.foto.url(:thumb), :class => "photo" %></td>
+    <td id=img><%=h admin_artistum.i_alias %></td>
+    <td id=img><%=h admin_artistum.nombre %></td>
+
+    <td id=img_edi1><%= link_to '', admin_artistum, :class => 'show', :title => "Mostrar" %></td>
+    <td id=img_edi><%= link_to '', edit_admin_artistum_path(admin_artistum), :class => 'edit', :title => "Editar" %></td>
+    <td id=img_edi><%= link_to '', admin_artistum, :class => 'delete', :confirm => "¿Está seguro de que desea eliminar a \'#{admin_artistum.i_alias}\'?", :method => :delete, :title => "Eliminar" %></td>
+  </tr>
+<% end %>
